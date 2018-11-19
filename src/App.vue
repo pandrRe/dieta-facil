@@ -3,7 +3,8 @@
     <img id="logo" alt="Dieta logo" src="./assets/salad.svg">
     <div id="nav">
       <router-link to="/">Início</router-link> |
-      <router-link to="/sobre">Sobre</router-link>
+      <router-link to="/sobre">Sobre</router-link> |
+      <router-link to="/dieta">Dieta</router-link> |
     </div>
     <transition name="fade" mode="out-in">
       <router-view></router-view>
@@ -48,8 +49,6 @@ img#logo {
 
 p.textoCentro {
   text-align: center;
-  padding-left: 20%;
-  padding-right: 20%;
 }
 
 .fade-enter-active, .fade-leave-active {

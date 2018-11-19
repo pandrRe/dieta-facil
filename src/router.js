@@ -1,6 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Inicio from './views/Inicio.vue';
+import Sobre from './views/Sobre.vue';
+import Dieta from './views/Dieta.vue';
 
 Vue.use(Router);
 
@@ -16,10 +18,12 @@ export default new Router({
     {
       path: '/sobre',
       name: 'sobre',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/Sobre.vue'),
+      component: Sobre,
+    },
+    {
+      path: '/dieta',
+      name: 'dieta',
+      component: Dieta,
     },
   ],
 });
