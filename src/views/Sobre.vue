@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about mainview">
     <h1>Sobre</h1>
     <p class="textoCentro">
         Dieta Fácil foi criado para a disciplina Projetos de Engenharia II e

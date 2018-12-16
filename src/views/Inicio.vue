@@ -1,5 +1,5 @@
 <template>
-  <div class="inicio">
+  <div class="inicio mainview">
     <Intro msg="Dieta Fácil"/>
   </div>
 </template>

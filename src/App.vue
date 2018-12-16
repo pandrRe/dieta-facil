@@ -51,10 +51,20 @@ p.textoCentro {
   text-align: center;
 }
 
+.textoEsq {
+ text-align: left;
+}
+
 .fade-enter-active, .fade-leave-active {
   transition: opacity .35s;
 }
 .fade-enter, .fade-leave-to /* .fade-leave-active em versões anteriores a 2.1.8 */ {
   opacity: 0;
+}
+
+.mainview {
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 </style>
